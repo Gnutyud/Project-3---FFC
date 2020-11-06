@@ -1,0 +1,228 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+:root {
+    --primary: black;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 300;
+    color: var(--primary);
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+
+.container {
+    padding: 30px 70px 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.header-inner {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-items {
+    margin-left: 85px;
+}
+
+.header-title {
+    margin-bottom: 110px;
+    padding-bottom: 110px;
+    border-bottom: 5px solid gray;
+    margin-top: 170px;
+    text-align: center;
+}
+
+.header-title h1,
+.feature-text h2 {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+
+.desc-title,
+.feature-text p {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+
+.header-title p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+#email {
+    width: 450px;
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 30px;
+    font-size: inherit;
+}
+
+#submit {
+    width: 260px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    font-size: 22px;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #f50057;
+}
+
+.bg-first {
+    /* background-image: url(https://i.gadgets360cdn.com/large/netflix_best_hindi_movies_1602069721748.jpg); */
+}
+
+.introduce {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 110px;
+    padding-bottom: 110px;
+    border-bottom: 5px solid gray;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.feature-list:nth-child(odd) {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.feature-text,
+.feature-img {
+    width: calc(50%-50px);
+}
+
+.pricing-box {
+    width: calc(33.33% - 20px);
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pricing-name {
+    font-size: 22px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background-color: darkgrey;
+}
+
+.pricing-value {
+    font-style: 12px;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+
+.pricing-desc {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    padding: 0px 25px 35px 25px;
+    text-align: left;
+}
+
+.pricing-select {
+    padding: 10px 30px 10px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 150px;
+    margin: auto auto 15px;
+    text-transform: uppercase;
+    background-color: darkorange;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.pricing-select:hover {
+    background-color: orangered;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 40px;
+}
+
+.footer {
+    padding: 80px 70px 20px;
+    margin-top: 120px;
+    border-top: 5px solid gray;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.footer-menu-item {
+    margin-bottom: 10px;
+}
+
+.contact-us {
+    font-size: 20px;
+}
+
+.footer-menu-item:hover,
+.contact-us:hover {
+    color: darkred;
+}
